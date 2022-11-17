@@ -135,19 +135,19 @@
             // btnGuide
             // 
             this.btnGuide.Name = "btnGuide";
-            this.btnGuide.Size = new System.Drawing.Size(224, 26);
+            this.btnGuide.Size = new System.Drawing.Size(151, 26);
             this.btnGuide.Text = "Guide";
             this.btnGuide.Click += new System.EventHandler(this.btnGuide_Click);
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(221, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(148, 6);
             // 
             // btnAbout
             // 
             this.btnAbout.Name = "btnAbout";
-            this.btnAbout.Size = new System.Drawing.Size(224, 26);
+            this.btnAbout.Size = new System.Drawing.Size(151, 26);
             this.btnAbout.Text = "About us";
             this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
             // 
@@ -222,9 +222,9 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(176, 249);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(485, 54);
+            this.label1.Size = new System.Drawing.Size(424, 54);
             this.label1.TabIndex = 0;
-            this.label1.Text = "WELCOME TO FSTORE <3";
+            this.label1.Text = "WELCOME TO FSTORE";
             // 
             // frmMain
             // 

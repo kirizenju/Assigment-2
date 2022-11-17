@@ -106,7 +106,7 @@ namespace WinFormsApp1
 
         private void btnAbout_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("", "About us");
+            MessageBox.Show("Group 2", "About us");
         }
     }
 }
