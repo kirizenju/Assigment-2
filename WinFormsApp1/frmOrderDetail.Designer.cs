@@ -46,14 +46,12 @@
             this.txtUnitPrice = new System.Windows.Forms.TextBox();
             this.txtDiscount = new System.Windows.Forms.TextBox();
             this.txtQuantity = new System.Windows.Forms.TextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.lbHeader2 = new System.Windows.Forms.Label();
             this.dgvOrderDetail = new System.Windows.Forms.DataGridView();
             this.btnSaveOrder = new System.Windows.Forms.Button();
             this.btnNewItem = new System.Windows.Forms.Button();
             this.btnDeleteItem = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.pnItemInfor = new System.Windows.Forms.Panel();
             this.lbHeaderGDV = new System.Windows.Forms.Label();
             this.txtOrderDate = new System.Windows.Forms.DateTimePicker();
@@ -216,14 +214,6 @@
             this.txtQuantity.Size = new System.Drawing.Size(226, 27);
             this.txtQuantity.TabIndex = 51;
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel1.Location = new System.Drawing.Point(424, 69);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(2, 327);
-            this.panel1.TabIndex = 52;
-            // 
             // lbHeader2
             // 
             this.lbHeader2.AutoSize = true;
@@ -288,20 +278,12 @@
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel2.Location = new System.Drawing.Point(415, 364);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(429, 2);
-            this.panel2.TabIndex = 57;
-            // 
             // pnItemInfor
             // 
             this.pnItemInfor.BackColor = System.Drawing.Color.Transparent;
             this.pnItemInfor.Location = new System.Drawing.Point(413, 12);
             this.pnItemInfor.Name = "pnItemInfor";
-            this.pnItemInfor.Size = new System.Drawing.Size(440, 409);
+            this.pnItemInfor.Size = new System.Drawing.Size(440, 337);
             this.pnItemInfor.TabIndex = 58;
             // 
             // lbHeaderGDV
@@ -316,7 +298,6 @@
             // 
             // txtOrderDate
             // 
-            this.txtOrderDate.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtOrderDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.txtOrderDate.Location = new System.Drawing.Point(144, 185);
             this.txtOrderDate.Name = "txtOrderDate";
@@ -325,7 +306,6 @@
             // 
             // txtRequiredDate
             // 
-            this.txtRequiredDate.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtRequiredDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.txtRequiredDate.Location = new System.Drawing.Point(144, 233);
             this.txtRequiredDate.Name = "txtRequiredDate";
@@ -334,7 +314,6 @@
             // 
             // txtShippedDate
             // 
-            this.txtShippedDate.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtShippedDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.txtShippedDate.Location = new System.Drawing.Point(144, 281);
             this.txtShippedDate.Name = "txtShippedDate";
@@ -345,18 +324,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(865, 612);
             this.Controls.Add(this.txtShippedDate);
             this.Controls.Add(this.txtRequiredDate);
             this.Controls.Add(this.txtOrderDate);
             this.Controls.Add(this.lbHeaderGDV);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.btnDeleteItem);
             this.Controls.Add(this.btnNewItem);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnSaveOrder);
             this.Controls.Add(this.dgvOrderDetail);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.txtQuantity);
             this.Controls.Add(this.txtDiscount);
             this.Controls.Add(this.txtUnitPrice);
@@ -378,7 +356,7 @@
             this.Controls.Add(this.lbOrderId);
             this.Controls.Add(this.pnItemInfor);
             this.Name = "frmOrderDetail";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmOrderDetail";
             this.Load += new System.EventHandler(this.frmOrderDetail_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvOrderDetail)).EndInit();
@@ -407,14 +385,12 @@
         private TextBox txtUnitPrice;
         private TextBox txtDiscount;
         private TextBox txtQuantity;
-        private Panel panel1;
         private Label lbHeader2;
         private DataGridView dgvOrderDetail;
         private Button btnSaveOrder;
         private Button btnNewItem;
         private Button btnDeleteItem;
         private Button btnClose;
-        private Panel panel2;
         private Panel pnItemInfor;
         private Label lbHeaderGDV;
         private DateTimePicker txtOrderDate;
